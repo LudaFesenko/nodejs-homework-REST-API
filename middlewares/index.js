@@ -1,3 +1,5 @@
 const isValidId = require("./isValidId");
 
-module.exports = { isValidId };
+const authenticate = require("./authenticate");
+
+module.exports = { isValidId, authenticate };
